@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McCarty Roofing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/368eb08090.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="header__wrapper">
+
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo">
+                    <img src="images/logo.avif" alt="pic1">
+                </a>
+
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">Services</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="tel:434-845-3219" class="button">Call Now</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="live__banner">
+            <div class="live__banner--track">
+                <span>Austin Lamicella — “We had a exhaust pipe (in a terrible location) on our slate roof causing water to get into the house. It was very difficult to find a company experienced in slate work and willing to do this repair. Most companies brushed me off or wanted to put in a temporary fix. McCarty Roofing was the only company in town that provided an honest assessment and quote for the repair. Contracting them was a no-brainer. They provided excellent service and even made a custom copper pipe boot to fit on the exhaust pipe. Several storms later, I'm happy to say that there is no more water in the house! Thank you McCarty Roofing! We would gladly recommend them to any of our friends.”</span>
+                <span>Emanuel Guerreiro — “We initially contracted McCarty Roofing to fabricate two custom-made copper chimney caps. They did such a great job, we kept adding to the list of both needs and even a few wishes. Thoroughly enjoyed doing business with Andrew and his team. Highly recommended, so much so, I won’t be getting quotes elsewhere going forward.”</span>
+                <span>Burt D. — "We are remodeling an older home for our retirement place. It has a slate roof and copper accent areas. Because we are not completely full-time locals yet, we really have to trust contractors we hire. Not only did Andrew McCarty and his team do a truly outstanding job, employing traditional, time-tested craft methods, to the last man they were hard-working, courteous, tidy, and efficient. In all, they repaired some slate areas, replaced the copper fittings all along the ridge line, completely replaced a leaking standing seam copper accent area, and worked with one of our other contractors to add vents and repair some impacted siding and dentil moldings. Additionally, they fabricated and installed a pair of matching chimney caps and fixed some perpetually malfunctioning gutters that the previous roof guys we hired had failed —on repeated attempts— to correct. We were present for the first half of the work but could not be on site for the completion. Andrew happily worked with us."</span>
+                <span>Russell L. — "Great group of professionals who came and repaired a leak before it got any worst. We've chosen them to replace the roof on our 120 year old home."</span>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Hero -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Backed by Over 50 Years of Combined Experience</h1>
+                <h2>We Deliver Quality Workmanship and Dependable Results</h2>
+                <p>Contact us today to schedule a consultation</p>
+                <button class="main__btn">
+                    <a href="tel:434-845-3219">Call Now</a>
+                </button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/build.jpg" alt="pic" id="main__img-1">
+                <img src="images/build3.jpg" alt="pic1" id="main__img">
+                <img src="images/pic2.avif" alt="pic3" id="main__img1">
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="services">
+        <h1>Our Most Requested Services</h1>
+        <div class="services__container">
+            <div class="services__card" id="card1">
+                <h2>Metal</h2>
+                <p>Durable, long-lasting protection with clean finish</p>
+                <button>
+                    <a href="tel:434-845-3219">Call Now</a>
+                </button>
+            </div>
+            <div class="services__card" id="card2">
+                <h2>Low Slope</h2>
+                <p>Reliable drainage solutions for flat roofs</p>
+                <button>
+                    <a href="tel:434-845-3219">Call Now</a>
+                </button>
+            </div>
+            <div class="services__card" id="card3">
+                <h2>Slate</h2>
+                <p>Natural stone roofing built for longevity</p>
+                <button>
+                    <a href="tel:434-845-3219">Call Now</a>
+                </button>
+            </div>
+            <div class="services__card" id="card4">
+                <h2>Cedar Shake</h2>
+                <p>Warm, natural wood roofing with character</p>
+                <button>
+                    <a href="tel:434-845-3219">Call Now</a>
+                </button>
+            </div>
+            <div class="services__card" id="card5">
+                <h2>Custom Sheet Metal</h2>
+                <p>Precision-fabricated metal for complex roof details</p>
+                <button>
+                    <a href="tel:434-845-3219">Call Now</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero2 -->
+    <div class="main2">
+        <div class="main2__container">
+        <div class="main2__form--container">
+            <h1>Request a Quote</h1>
+            <form class="quote__form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Address" required>
+                <select required>
+                    <option value="">Service Needed</option>
+                    <option value="repair">Roof Repair</option>
+                    <option value="replacement">Roof Replacement</option>
+                    <option value="storm">Storm Damage</option>
+                </select>
+                <textarea placeholder="Describe your issue..." rows="5"></textarea>
+                <button type="submit" class="main2__btn">
+                    <a href="/">
+                        Request Quote
+                    </a>
+                </button>
+            </form>
+        </div>
+            <div class="main2__content">
+                <h1>Request Your Roofing Quote</h1>
+                <h2>Fast Estimates • Honest Pricing • No Pressure</h2>
+                <p>McCarty Roofing, Inc. provides roofing services throughout the Lynchburg area</p>
+                <button class="main2__btn">
+                    <a href="tel:434-845-3219">Call Now</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Community Trust</h2>
+                <a href="/">Customer Reviews</a>
+                <a href="/">Our Reputation</a>
+                <a href="/">Licensed & Insured</a>
+                <a href="/">Our Guarantees</a>
+                <a href="/">Safety Standards</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>How We Work</h2>
+                <a href="/">Free Inspections</a>
+                <a href="/">Transparent Pricing</a>
+                <a href="/">Step-by-Step Process</a>
+                <a href="/">Project Timelines</a>
+                <a href="/">What to Expect</a>
+    </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Roofing Services</h2>
+                <a href="/">Roof Repairs</a>
+                <a href="/">Full Replacements</a>
+                <a href="/">Storm Damage Repair</a>
+                <a href="/">Leak Detection</a>
+                <a href="/">Roof Inspections</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Learn About Your Roof</h2>
+                <a href="/">Common Roof Problems</a>
+                <a href="/">Signs of Damage</a>
+                <a href="/">Maintenance Tips</a>
+                <a href="/">Material Options</a>
+                <a href="/">Storm Preparation</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Social Media -->
+    <div class="social__media">
+        <div class="social__media--wrapper">
+            <a href="/" class="social__media--logo">
+                <img src="images/logo.avif" alt="pic1">
+            </a>
+            <p class="website__rights">
+                © Bonilla Roofing 2026. All rights reserved.
+            </p>
+            <div class="social__media--icons">
+                <a href="https://www.facebook.com/people/Bonilla-Roofing-LLC/100093287027655/?_rdr" class="social__media--icon-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.yelp.com/biz/bonilla-roofing-lynchburg" class="social__media--icon-link">
+                    <i class="fab fa-yelp"></i>
+                </a>
+                <a href="/" class="social__media--icon-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="/" class="social__media--icon-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+</body>
+</html>
